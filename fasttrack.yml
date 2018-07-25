@@ -1,0 +1,9 @@
+---
+- hosts: "{{ target }}"
+  remote_user: svc_devops
+  become: yes
+  become_method: sudo
+  gather_facts: true
+  ignore_errors: yes
+  roles:
+    - fasttrack

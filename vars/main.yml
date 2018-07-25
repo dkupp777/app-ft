@@ -1,0 +1,8 @@
+---
+appname: fasttrack
+listenport: 28180
+shutdownport: 28105
+ajpport: 28109
+xms: 4096
+xmx: 4096
+wshost: https://dev-services.risk.regn.net/VPSService
